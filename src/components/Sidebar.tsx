@@ -13,7 +13,7 @@ async function Sidebar() {
   if (!authUser) return <UnAuthenticatedSidebar />;
 
   const user = await getUserByClerkId(authUser.id);
-  console.log(user, " user in Sidebar");
+  // console.log(user, " user in Sidebar");
   if (!user) return null;
 
   return (

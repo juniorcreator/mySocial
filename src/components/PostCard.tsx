@@ -130,11 +130,11 @@ function PostCard({ post, dbUserId }: { post: Post; dbUserId: string | null }) {
 
           {/* POST IMAGE */}
           {post.image && (
-            <div className="rounded-lg overflow-hidden">
+            <div className="rounded-lg overflow-hidden flex justify-center">
               <img
                 src={post.image}
                 alt="Post content"
-                className="w-full h-auto object-cover"
+                className="w-full h-auto max-w-65  object-cover"
               />
             </div>
           )}
