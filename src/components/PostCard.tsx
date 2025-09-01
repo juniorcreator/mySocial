@@ -134,7 +134,7 @@ function PostCard({ post, dbUserId }: { post: Post; dbUserId: string | null }) {
               <img
                 src={post.image}
                 alt="Post content"
-                className="w-full h-auto max-w-65  object-cover"
+                className="w-full h-auto object-cover"
               />
             </div>
           )}
